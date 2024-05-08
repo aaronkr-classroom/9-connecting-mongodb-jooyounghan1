@@ -8,8 +8,10 @@ const port = 3000,
   errorController = require("./controllers/errorController"),
   app = express(),
   MongoDB = require('mongodb').MongoClient,
-  dbURL = "mongodb+srv://2211wnd:1234@/ut-node/.034woqa.mongodb.net/?retryWrites=true&w=majority&appName=ut-node" //Atlas에서 
-  dbName = "ut-node";
+  dbURL = "mongodb+srv://ut-node:rL9DE05A8jlGVhLV@ut-node.034woqa.mongodb.net/?retryWrites=true&w=majority&appName=ut-node" //Atlas에서 ;
+
+  const dbName = "ut-node";
+
   // @TODO: 몽고DB 모듈의 요청
 
 // @TODO: Atlas MongoDB 데이터베이스 서버 연결 설정
